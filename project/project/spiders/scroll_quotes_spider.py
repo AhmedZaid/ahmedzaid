@@ -6,10 +6,7 @@ import psycopg2
 import scrapy
 
 from project.service import create_quotes
-# you can change this to parse as much as you want
 from scrapy_redis.spiders import RedisSpider
-
-Pages = 2
 
 
 class ScrollQuotesSpider(RedisSpider):
